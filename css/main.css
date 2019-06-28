@@ -1,0 +1,93 @@
+@font-face{
+    font-family: Rubik-light;
+    src: url("fonts/Rubik-Light.ttf");
+}
+
+h1{
+    font-weight: bold;
+    color: #0045B2;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+section .text{
+    width: 100%;
+    height: 100%;
+}
+h3{
+    margin-bottom: 10px;
+    color: #0045B2;
+    font-size: 20px;
+    font-family: 'Rubik-light';
+}
+.manage{
+    color: #0084FF;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-family: 'Rubik-light';
+    font-weight: bold;
+}
+
+.download p{
+    color: #0045B2;
+    font-weight: bold;
+    font-family: 'Montserrat';
+}
+.links{ 
+    margin-top: 30px;
+    margin-bottom: -15px;
+}
+.link{
+    display:inline;
+    text-align: center;
+}
+.logo{
+    margin-top: 30px;
+}
+.logotext{
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+.nook{
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+.center{
+    font-family: 'Rubik-light';
+    font-weight: bold;
+}
+.has-text-right{
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.tech{
+    margin-right: 10px;
+}
+.contacts{
+    background: linear-gradient(#0045B2,#004483)
+}
+.contacts .c,p{
+    color: white;
+}
+.c{
+    font-weight: bold;
+    margin-top: 25px;
+}
+.c a:hover{
+    color: white;
+}
+.contact{
+    background: white;
+    height: 50px;
+    color: #0045B2;
+}
+.contact .column{
+    font-weight: bold;
+}
+@media(max-width:769px){
+    .contact {
+        background: white;
+        height: 150px;
+        color: #0045B2;
+    }
+}
